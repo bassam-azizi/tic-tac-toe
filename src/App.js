@@ -1,4 +1,5 @@
 import React from "react";
+import "./components/square";
 import "./styles.css";
 
 export default function App() {
