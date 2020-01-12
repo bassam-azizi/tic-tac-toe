@@ -1,11 +1,11 @@
 import React from "react";
-import "./components/square";
-import "./styles.css";
+import Game from "./components/game";
+import "./app.css";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>tic-tac-toe</h1>
+      <Game />
     </div>
   );
 }
